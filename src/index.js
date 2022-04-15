@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger: element,
         start: "top 95%",
         end: end,
-        scrub: true,
+        // scrub: true,
         // markers: true,
         // id: "scrub"
       }
