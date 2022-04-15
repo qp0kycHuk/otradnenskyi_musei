@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="assets/css/ui-reset.css">
+	<link rel="stylesheet" href="assets/css/libs.css">
+	<link rel="stylesheet" href="assets/css/ui-core.css">
+	<link rel="stylesheet" href="assets/css/frontend--fonts.css">
+	<link rel="stylesheet" href="assets/css/frontend--style.css">
+
+	<link rel="stylesheet" href="assets/css/ui-example.css">
+
+	<script src="assets/js/index.js"></script>
+
+
+
+	<title>Отрадненский музей </title>
+</head>
+
+<body class="bg-l3">
+	<div>
+
+		<div class="started-background">
+			<div class="started-background__img">
+				<img src="assets/img/started-bg.jpg" alt="" data-parallax>
+			</div>
+
+			<header class="header gsap" data-animation="fadeInDown" data-delay="0.500">
+				<a href="/" class="header-logo">
+					<div class="header-logo__img">
+						<img src="assets/img/logo-img.png" alt="">
+					</div>
+					<div class="header-logo__text">
+						<svg class="header-logo__title" width="225" height="50">
+							<use xlink:href="assets/img/logo-title.svg#index" />
+						</svg>
+
+						<svg class="header-logo__subtitle" width="122" height="18">
+							<use xlink:href="assets/img/logo-subtitle.svg#index" />
+						</svg>
+
+
+					</div>
+				</a>
+				<div class="header-nav" id="header-nav">
+					<div class="d-lg-none mobile-menu-header">
+						<a href="/" class="header-logo">
+							<div class="header-logo__img">
+								<img src="assets/img/logo-img.png" alt="">
+							</div>
+							<div class="header-logo__text">
+								<svg class="header-logo__title color-text" width="225" height="50">
+									<use xlink:href="assets/img/logo-title.svg#index" />
+								</svg>
+
+								<svg class="header-logo__subtitle" width="122" height="18">
+									<use xlink:href="assets/img/logo-subtitle.svg#index" />
+								</svg>
+
+
+							</div>
+						</a>
+
+						<button class="btn btn--primary btn-icon ml-auto" data-toggle-link="header-nav">
+							<svg class="icon">
+								<use xlink:href="assets/img/icons.svg#cross" />
+							</svg>
+						</button>
+					</div>
+					<div class="header-nav__inner">
+
+						<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0"
+							data-toggle-link="nav-popup-1">
+							Музей
+							<svg class="icon fade-60 ml-2 text-small">
+								<use xlink:href="assets/img/icons.svg#triangle-right" />
+							</svg>
+						</button>
+						<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8"
+							data-toggle-link="nav-popup-2">
+							Что посмотреть
+							<svg class="icon fade-60 ml-2 text-small">
+								<use xlink:href="assets/img/icons.svg#triangle-right" />
+							</svg>
+						</button>
+						<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Новости</button>
+						<button
+							class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Посетителям</button>
+						<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Медиа</button>
+
+						<div class="header-nav__popup">
+							<div class="header-nav__popup-inner" id="nav-popup-1">
+								<div class="header-nav__popup-list">
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+										data-toggle-link="nav-popup-1">
+										<svg class="icon fade-60 mr-2 text-small">
+											<use xlink:href="assets/img/icons.svg#to-left" />
+										</svg>
+										Музей
+
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4"
+										data-toggle-link="nav-popup-1-1">
+										Музей для
+										<svg class="icon fade-60 ml-2 text-small">
+											<use xlink:href="assets/img/icons.svg#triangle-right" />
+										</svg>
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">История</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Руководство</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Контакты</button>
+								</div>
+
+								<div class="header-nav__popup-sub " id="nav-popup-1-1">
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+										data-toggle-link="nav-popup-1-1">
+										<svg class="icon fade-60 mr-2 text-small">
+											<use xlink:href="assets/img/icons.svg#to-left" />
+										</svg>
+										Музей для
+
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+										<img src="assets/img/museum-for-1.png" alt="" class="icon text-body-0 mr-2">
+										Школьников
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+										<img src="assets/img/museum-for-2.png" alt="" class="icon text-body-0 mr-2">
+										Дошкольников
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+										<img src="assets/img/museum-for-3.png" alt="" class="icon text-body-0 mr-2">
+										Семейной аудитории
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+										<img src="assets/img/museum-for-4.png" alt="" class="icon text-body-0 mr-2">
+										Волонтеров
+									</button>
+
+								</div>
+
+
+							</div>
+							<div class="header-nav__popup-inner" id="nav-popup-2">
+								<div class="header-nav__popup-list">
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+										data-toggle-link="nav-popup-2">
+										<svg class="icon fade-60 mr-2 text-small">
+											<use xlink:href="assets/img/icons.svg#to-left" />
+										</svg>
+										Что посмотреть
+
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Постоянная экспозиция
+									</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Выставка</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Экскурсия</button>
+									<button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Другие события
+										(мероприятия)</button>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="header-nav__shadow" data-toggle-link="header-nav"></div>
+				</div>
+
+
+				<button class="header__burger btn btn--white btn-icon  d-lg-none ml-auto" data-toggle-link="header-nav">
+					<svg class="icon">
+						<use xlink:href="assets/img/icons.svg#menu" />
+					</svg>
+				</button>
+			</header>
+
+			<section class="started">
+				<div class="text-h4 text-md-h1 text-lg-h0 font-alt started__title mb-7 gsap" data-animation="fadeInUp" data-delay="0.500">
+					Отрадненский историко- <br>
+					археологический музей
+				</div>
+				<div class="text-body-1 started__subtitle gsap" data-animation="fadeInUp" data-delay="0.500">
+					Одно из лучших муниципальных учреждений культуры Кубани,
+				</div>
+				<button class="started__btn btn btn--white-bg mt-10 gsap" data-animation="fadeInUp" data-delay="0.500">Больше о музее</button>
+			</section>
+
+
+
+
+		</div>
+
+
+		<!-- Что посмотреть -->
+		<section class="whatsee section--whithtop">
+			<div class="section__top">
+				<div class="whatsee__title text-h4 text-md-h1 text-lg-h0 mb-4 font-alt gsap-scroll" data-animation="fadeInUp">Что посмотреть</div>
+				<div class="whatsee__subtitle text-body-2 text-md-body-0 fade-60 gsap-scroll" data-animation="fadeInUp">Мы к вашим услугам</div>
+			</div>
+			<div class="whatsee__grid">
+				<div class="whatsee__item card p-lg-4 p-2 link-hover-wrapper waved gsap-scroll" data-animation="fadeInLeft">
+					<div class="image brs-1" style="margin-top: -8.7%;">
+						<img src="assets/img/whatsee-1.png" alt="">
+					</div>
+					<div class="card-content p-lg-4 p-2 pb-2">
+						<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt mb-5 link-hover">Постоянная экспозиция</div>
+						<button class="btn btn--primary btn--fill mt-auto">Посмотреть расписание</button>
+					</div>
+				</div>
+				<div class="whatsee__item card p-lg-4 p-2 link-hover-wrapper waved gsap-scroll" data-animation="fadeInRight">
+					<div class="image brs-1" style="margin-top: -7%;">
+						<img src="assets/img/whatsee-2.png" alt="">
+					</div>
+					<div class="card-content p-lg-4 p-2 pb-2">
+						<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt mb-5 link-hover">Выставки</div>
+						<button class="btn btn--primary btn--fill mt-auto">Посмотреть расписание</button>
+					</div>
+				</div>
+				<div class="whatsee__item card p-lg-4 p-2 link-hover-wrapper waved gsap-scroll" data-animation="fadeInLeft">
+					<div class="image brs-1" style="margin-top: -6%;">
+						<img src="assets/img/whatsee-3.png" alt="">
+					</div>
+					<div class="card-content p-lg-4 p-2 pb-2">
+						<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt mb-5 link-hover">Экскурсия</div>
+						<button class="btn btn--primary btn--fill mt-auto">Посмотреть расписание</button>
+					</div>
+				</div>
+				<div class="whatsee__item card p-lg-4 p-2 link-hover-wrapper waved gsap-scroll" data-animation="fadeInRight">
+					<div class="image brs-1" style="margin-top: -15.5%;">
+						<img src="assets/img/whatsee-4.png" alt="">
+					</div>
+					<div class="card-content p-lg-4 p-2 pb-2">
+						<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt mb-5 link-hover">Другие события (мероприятия)
+						</div>
+						<button class="btn btn--primary btn--fill mt-auto">Посмотреть расписание</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- История музея -->
+		<div class="index-history-background">
+			<div class="index-history-background__img">
+				<img src="assets/img/index-history-bg.png" alt="" class="gsap-scroll" data-animation="fadeInRight" data-end="bottom 100px">
+			</div>
+
+			<section class="index-history">
+
+				<div class="index-history__content gsap-scroll" data-animation="fadeInLeft">
+					<div class="text-h4 text-md-h1 text-lg-h0 font-alt mb-5 mb-lg-9">История музея</div>
+					<div class="text-body-2 text-md-body-1 lh-1-5">
+						<p class="mb-4">
+							Первые экспонаты для музея начали собирать учащиеся отрадненских школ, работавшие на станции юннатов в
+							1947
+							–
+							1955 годах. 26 мая 1957 года в день празднования 100-летия станицы Отрадной состоялось официальное
+							открытие
+							народного музея.
+						</p>
+						<p>
+							Сегодня Отрадненский историко-археологический музей - одно из лучших муниципальных учреждений культуры
+							Кубани,
+							находящихся на территориях сельских поселений. Хранит более 31 тысячи экспонатов, ведет серьезную
+							исследовательскую и культурно-образовательную работ.
+						</p>
+					</div>
+
+					<button class="btn btn--white-bg mt-10">Узнать больше</button>
+				</div>
+
+			</section>
+		</div>
+
+
+
+		<!-- Посетителям -->
+		<section class="visitor section--whithtop">
+			<div class="section__top gsap-scroll" data-animation="fadeInUp">
+				<div class="whatsee__title text-h4 text-md-h1 text-lg-h0 mb-4 font-alt">Посетителям</div>
+				<div class="whatsee__subtitle text-body-2 text-md-body-0 fade-60">
+					Вы можете узнать стоимость билетов, спланировать визит, а также
+					узнать правила посещения
+				</div>
+			</div>
+
+
+			<div class="grid grid-spacing-lg-9 flex-justify-center">
+				<div class="grid-col-6 grid-col-md-4">
+					<div class="card h-100  waved link-hover-wrapper gsap-scroll" data-animation="fadeInLeft">
+						<div class="card-content py-lg-9 px-lg-8">
+							<svg class="icon color-primary mb-4 mb-lg-8" style="font-size:72px">
+								<use xlink:href="assets/img/icons.svg#ticket" />
+							</svg>
+							<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt link-hover">
+								Билеты <br>
+								и цены
+							</div>
+							<button class="btn btn--primary btn--link mt-4 mt-lg-6">
+								Подробнее
+								<svg class="icon ml-2">
+									<use xlink:href="assets/img/icons.svg#arrow-right" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="grid-col-6 grid-col-md-4">
+					<div class="card h-100 waved link-hover-wrapper gsap-scroll" data-animation="fadeInUp">
+						<div class="card-content py-lg-9 px-lg-8">
+							<svg class="icon color-primary mb-4 mb-lg-8" style="font-size:72px">
+								<use xlink:href="assets/img/icons.svg#calendar-1" />
+							</svg>
+							<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt link-hover">
+								Спланировать <br>
+								визит
+							</div>
+							<button class="btn btn--primary btn--link mt-4 mt-lg-6">
+								Подробнее
+								<svg class="icon ml-2">
+									<use xlink:href="assets/img/icons.svg#arrow-right" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="grid-col-6 grid-col-md-4">
+					<div class="card h-100  waved link-hover-wrapper gsap-scroll" data-animation="fadeInRight">
+						<div class="card-content py-lg-9 px-lg-8">
+							<svg class="icon color-primary mb-4 mb-lg-8" style="font-size:72px">
+								<use xlink:href="assets/img/icons.svg#doc-1" />
+							</svg>
+							<div class="text-subtitle-2 text-md-h6 text-lg-h4 font-alt link-hover">
+								Правила <br>
+								посещения
+							</div>
+							<button class="btn btn--primary btn--link mt-4 mt-lg-6">
+								Подробнее
+								<svg class="icon ml-2">
+									<use xlink:href="assets/img/icons.svg#arrow-right" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Медиа -->
+		<section class="media media-index">
+			<div class="section__top">
+				<div class="whatsee__title text-h4 text-md-h1 text-lg-h0 font-alt gsap-scroll" data-animation="fadeInLeft">Медиа</div>
+			</div>
+
+			<div class="media__grid">
+
+				<a href="https://picsum.photos/1920/1080?random=21" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInLeft">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=21" alt="">
+				</a>
+
+				<a href="https://picsum.photos/1920/1080?random=22" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInUp">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=22" alt="">
+				</a>
+
+				<a href="https://picsum.photos/1920/1080?random=23" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInRight">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=23" alt="">
+				</a>
+
+				<a href="https://picsum.photos/1920/1080?random=24" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInLeft">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=24" alt="">
+				</a>
+
+				<a href="https://picsum.photos/1920/1080?random=25" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInUp">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=25" alt="">
+				</a>
+
+				<a href="https://picsum.photos/1920/1080?random=26" data-fancybox="index-media"
+					class="media__item image image--hover image--box bg-l1 brs-1 waved progess-container gsap-scroll"
+					data-animation="fadeInRight">
+					<div class="progress progress-circle"></div>
+					<img src="https://picsum.photos/600/400?random=26" alt="">
+				</a>
+			</div>
+		</section>
+
+		<!-- Последние новости -->
+		<section class="news bg-l1">
+			<div class="section__top">
+				<div class="whatsee__title text-h4 text-md-h1 text-lg-h0 mb-4 font-alt">Последние новости</div>
+				<div class="whatsee__subtitle text-body-2 text-md-body-0 fade-60">
+					Вы можете узнать стоимость билетов, спланировать визит, а также узнать правила посещения
+				</div>
+			</div>
+			<div class="slider slider--overwrap news-slider">
+
+				<div class="swiper grid-wrap grid-spacing-3 grid-spacing-lg-9">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide grid-col-lg-4 grid-col-md-6 grid-col-9">
+							<div class="card h-100 link-hover-wrapper waved">
+								<div class="card-img progress-container bg-l2">
+									<div class="progress progress-circle"></div>
+									<img src="https://picsum.photos/600/400?random=11" alt="">
+
+									<div class="card-bottom-control px-4 px-lg-8 pb-3 flex">
+										<div class="bg-l3 brs-3 px-3 py-1">14.03.2022</div>
+									</div>
+								</div>
+								<div class="card-content pt-3 pt-md-5 px-2 px-md-4 px-lg-8 pb-3 pb-md-8">
+									<div class="text-body-1 text-md-body-0 text--demibold font-alt mb-3 link-hover">
+										У Отрадненского
+										историко-археологического
+										музея новый сайт
+									</div>
+									<div class="text-body-2 text-md-body-1 fade-60 flex-grow">
+										Сегодня Отрадненский историко-
+										археологический музей - одно...
+									</div>
+									<button class="btn btn--primary btn--link mt-6">
+										Подробнее
+										<svg class="icon ml-2">
+											<use xlink:href="assets/img/icons.svg#arrow-right" />
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide grid-col-lg-4 grid-col-md-6 grid-col-9">
+							<div class="card h-100 link-hover-wrapper waved">
+								<div class="card-img progress-container bg-l2">
+									<div class="progress progress-circle"></div>
+									<img src="https://picsum.photos/600/400?random=12" alt="">
+
+									<div class="card-bottom-control px-4 px-lg-8 pb-3 flex">
+										<div class="bg-l3 brs-3 px-3 py-1">14.03.2022</div>
+									</div>
+								</div>
+								<div class="card-content pt-3 pt-md-5 px-2 px-md-4 px-lg-8 pb-3 pb-md-8">
+									<div class="text-body-1 text-md-body-0 text--demibold font-alt mb-3 link-hover">
+										У Отрадненского
+										историко-археологического
+									</div>
+									<div class="text-body-2 text-md-body-1 fade-60 flex-grow">
+										Сегодня Отрадненский историко-
+										археологический музей - одно...
+									</div>
+									<button class="btn btn--primary btn--link mt-6">
+										Подробнее
+										<svg class="icon ml-2">
+											<use xlink:href="assets/img/icons.svg#arrow-right" />
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide grid-col-lg-4 grid-col-md-6 grid-col-9">
+							<div class="card h-100 link-hover-wrapper waved">
+								<div class="card-img progress-container bg-l2">
+									<div class="progress progress-circle"></div>
+									<img src="https://picsum.photos/600/400?random=13" alt="">
+
+									<div class="card-bottom-control px-4 px-lg-8 pb-3 flex">
+										<div class="bg-l3 brs-3 px-3 py-1">14.03.2022</div>
+									</div>
+								</div>
+								<div class="card-content pt-3 pt-md-5 px-2 px-md-4 px-lg-8 pb-3 pb-md-8">
+									<div class="text-body-1 text-md-body-0 text--demibold font-alt mb-3 link-hover">
+										У Отрадненского
+										историко-археологического
+										музея новый сайт
+									</div>
+									<div class="text-body-2 text-md-body-1 fade-60 flex-grow">
+										Сегодня Отрадненский историко-
+										археологический музей - одно...
+									</div>
+									<button class="btn btn--primary btn--link mt-6">
+										Подробнее
+										<svg class="icon ml-2">
+											<use xlink:href="assets/img/icons.svg#arrow-right" />
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<button class="btn btn-large btn-fab btn--white-bg slider-nav slider-prev d-none d-md-flex">
+					<svg class="icon">
+						<use xlink:href="assets/img/icons.svg#to-left" />
+					</svg>
+				</button>
+				<button class="btn btn-large btn-fab btn--white-bg slider-nav slider-next d-none d-md-flex">
+					<svg class="icon">
+						<use xlink:href="assets/img/icons.svg#to-right" />
+					</svg>
+				</button>
+			</div>
+
+			<button class="btn btn--primary btn--fill mt-10">Все новости</button>
+		</section>
+		<script>
+			new Swiper('.news-slider .swiper', {
+				slidesPerView: 'auto',
+				watchSlidesProgress: true,
+				lazy: true,
+				navigation: {
+					nextEl: '.news-slider .slider-next',
+					prevEl: '.news-slider .slider-prev'
+				}
+			})
+		</script>
+
+		<div class="map progress-container">
+			<div class="progress progress-circle"></div>
+			<div class="map-inner " id="index-map">
+
+			</div>
+		</div>
+
+		<script>
+				(() => {
+					const init = () => {
+						ymaps.ready(function () {
+							var myMap = new ymaps.Map('index-map', {
+								center: [45.035012, 38.960149],
+								zoom: 17,
+								controls: ['zoomControl']
+							});
+
+							MyIconContentLayout = ymaps.templateLayoutFactory.createClass();
+
+							myPlacemark = new ymaps.Placemark([45.035012, 38.960149], {
+								balloonContent: ``
+							}, {
+								iconLayout: 'default#image',
+								iconImageHref: 'assets/img/map-marker.svg',
+								iconImageSize: [70, 84],
+								iconImageOffset: [-35, -42]
+							});
+
+							myMap.geoObjects.add(myPlacemark)
+							myMap.behaviors.disable('scrollZoom')
+						});
+					}
+
+
+					document.addEventListener('scroll', () => {
+						if (typeof ymaps == typeof undefined) {
+							const script = document.createElement('script')
+							script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU'
+							document.body.appendChild(script)
+
+							script.onload = init
+						} else {
+							init()
+						}
+					}, { once: true })
+
+
+				})();
+		</script>
+
+
+		<!-- Наши социальные сети -->
+		<section class="soc">
+			<div class="soc__title text-h6 text-md-h4 font-alt">Наши социальные сети</div>
+			<div class="soc__list">
+				<button class="soc__item btn btn--yellow btn-icon">
+					<img src="assets/img/soc-ok.svg" alt="" class="icon text-h2">
+				</button>
+				<button class="soc__item btn btn--red btn-icon">
+					<img src="assets/img/soc-yt.svg" alt="" class="icon text-h2">
+				</button>
+				<button class="soc__item btn btn--blue btn-icon">
+					<img src="assets/img/soc-vk.svg" alt="" class="icon text-h2">
+				</button>
+			</div>
+		</section>
+
+
+		<footer class="footer">
+			<div class="footer__info">
+				<div class="footer__logo mb-10">
+					<img src="assets/img/logo.png" alt="">
+				</div>
+
+				<div class="flex flex-align-center">
+					<svg class="icon color-primary mr-4">
+						<use xlink:href="assets/img/icons.svg#clock" />
+					</svg>
+					<div class="text-body-1">
+						Работаем ежедневно
+						с 9:00 до 18:00 часов
+					</div>
+				</div>
+			</div>
+			<div class="footer__nav d-none d-lg-block">
+				<div class="text-subtitle-1 font-alt mb-8">Навигация</div>
+				<button class="link-hover btn btn--white btn--link mb-4" data-toggle-link="footer-nav-1">
+					Музей
+					<svg class="icon fade-60 ml-2 text-small">
+						<use xlink:href="assets/img/icons.svg#triangle-right" />
+					</svg>
+				</button>
+				<div class="footer__nav-sub pl-4 fade-80" id="footer-nav-1" data-toggle-height="true" data-toggle-static="true">
+					<button class="link-hover btn btn--white btn--link mb-4" data-toggle-link="footer-nav-1-1">
+						Музей для
+						<svg class="icon fade-60 ml-2 text-small">
+							<use xlink:href="assets/img/icons.svg#triangle-right" />
+						</svg>
+					</button>
+					<div class="footer__nav-sub pl-4 fade-80" id="footer-nav-1-1" data-toggle-height="true"
+						data-toggle-static="true">
+						<button class="link-hover btn btn--white btn--link mb-4">Школьников </button>
+						<button class="link-hover btn btn--white btn--link mb-4">Дошкольников </button>
+						<button class="link-hover btn btn--white btn--link mb-4">Семейной аудитории </button>
+						<button class="link-hover btn btn--white btn--link mb-4">Волонтеров </button>
+					</div>
+					<button class="link-hover btn btn--white btn--link mb-4">История </button>
+					<button class="link-hover btn btn--white btn--link mb-4">Руководство </button>
+					<button class="link-hover btn btn--white btn--link mb-4">Контакты </button>
+				</div>
+				<button class="link-hover btn btn--white btn--link mb-4">Что посмотреть </button>
+				<button class="link-hover btn btn--white btn--link mb-4">Новости </button>
+				<button class="link-hover btn btn--white btn--link mb-4">Посетителям </button>
+				<button class="link-hover btn btn--white btn--link mb-4">Медиа </button>
+			</div>
+			<div class="footer__contact mt-4 mt-md-0">
+				<div class="text-subtitle-1 font-alt mb-4 mb-md-8">Контакты</div>
+
+				<div class="flex flex-align-center mb-5">
+					<svg class="icon color-primary mr-4">
+						<use xlink:href="assets/img/icons.svg#map-marker" />
+					</svg>
+					<div class="text-body-1">
+						Краснодарский край, ст. Отрадная, <br>
+						ул. Первомайская, 22
+					</div>
+				</div>
+				<a class="flex flex-align-center mb-5 link-hover" href="javascript:;">
+					<svg class="icon color-primary mr-4">
+						<use xlink:href="assets/img/icons.svg#phone" />
+					</svg>
+					<div class="text-h6 ">(86144) 3-42-03</div>
+				</a>
+				<a class="flex flex-align-center mb-5 link-hover" href="javascript:;">
+					<svg class="icon color-primary mr-4">
+						<use xlink:href="assets/img/icons.svg#email" />
+					</svg>
+					<div class="text-body-1 ">museiotr@mail.ru</div>
+				</a>
+			</div>
+		</footer>
+
+
+
+
+
+	</div>
+
+</body>

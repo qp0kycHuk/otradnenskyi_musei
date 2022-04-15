@@ -1,0 +1,31 @@
+{
+  "name": "krd-kit-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "author": "qpokychuk <serega990112@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.17",
+    "animate.css": "^4.1.1",
+    "gsap": "^3.10.0",
+    "inputmask": "^5.0.7",
+    "locomotive-scroll": "^4.1.4",
+    "swiper": "^7.4.1"
+  }
+}
