@@ -1133,8 +1133,22 @@ section {
 .tab-links {
 	display      : flex;
 	border-bottom: 1px solid var(--color-text-20);
-	position: relative;
-	overflow: hidden;
+	position     : relative;
+	overflow     : hidden;
+	width        : max-content;
+
+	&-wrapper {
+		width         : 100%;
+		overflow      : auto;
+		padding-bottom: 10px;
+
+		@media (max-width:@md) {
+			width        : calc(100% + 30px);
+			margin-left  : -15px;
+			padding-left : 15px;
+			padding-right: 15px;
+		}
+	}
 
 	&__item {
 		color        : var(--color-text-60);
@@ -1148,12 +1162,12 @@ section {
 
 	&__plate {
 		position     : absolute;
-		bottom       : -1px;
+		bottom       : 0px;
 		background   : var(--color-primary);
 		border-radius: 8px;
 		height       : 3px;
 		width        : 100px;
-		transition: .2s ease-out;
+		transition   : .2s ease-out;
 	}
 }
 
