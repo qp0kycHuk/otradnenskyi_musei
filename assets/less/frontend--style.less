@@ -1081,7 +1081,54 @@ section {
 	}
 }
 
+.exposition-detail {
+	@media (max-width:@md) {
+		padding-top: 0;
+	}
+}
 
+.exposition-detail-info {
+	background   : linear-gradient(90deg, #4384CE 15.65%, rgba(45, 139, 246, 0) 100%), #68CDEE;
+	color        : #fff;
+	border-radius: var(--radius-large);
+	padding      : 16px;
+	position     : relative;
+
+	&:before {
+		content       : '';
+		position      : absolute;
+		left          : 8px;
+		top           : 8px;
+		bottom        : 8px;
+		right         : 8px;
+		border-radius : inherit;
+		opacity       : 0.2;
+		border        : 2px solid #FFFFFF;
+		pointer-events: none;
+
+		@media (max-width:@md) {
+			display: none;
+		}
+	}
+
+	&__link {
+		background     : rgba(67, 132, 206, 0.5);
+		border-radius  : var(--radius-large);
+		display        : flex;
+		align-items    : center;
+		justify-content: center;
+		height         : 100%;
+		padding        : 12px;
+	}
+
+	@media (max-width:@md) {
+		width        : calc(100% + 30px);
+		margin-left  : -15px;
+		padding-left : 15px;
+		padding-right: 15px;
+		border-radius: 0;
+	}
+}
 
 // Gsap animation initial state
 [data-animation="fadeInLeft"],

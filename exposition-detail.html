@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="assets/css/ui-reset.css">
+  <link rel="stylesheet" href="assets/css/libs.css">
+  <link rel="stylesheet" href="assets/css/ui-core.css">
+  <link rel="stylesheet" href="assets/css/frontend--fonts.css">
+  <link rel="stylesheet" href="assets/css/frontend--style.css">
+
+  <link rel="stylesheet" href="assets/css/ui-example.css">
+
+  <script src="assets/js/index.js"></script>
+
+
+
+  <title>Выставки - Отрадненский музей </title>
+</head>
+
+<body class="bg-l3">
+  <div class="started-background started-background--light">
+    <div class="started-background__img"> </div>
+
+    <header class="header">
+      <a href="/" class="header-logo">
+        <div class="header-logo__img">
+          <img src="assets/img/logo-img.png" alt="">
+        </div>
+        <div class="header-logo__text">
+          <svg class="header-logo__title" width="225" height="50">
+            <use xlink:href="assets/img/logo-title.svg#index" />
+          </svg>
+
+          <svg class="header-logo__subtitle" width="122" height="18">
+            <use xlink:href="assets/img/logo-subtitle.svg#index" />
+          </svg>
+
+
+        </div>
+      </a>
+      <div class="header-nav" id="header-nav">
+        <div class="d-lg-none mobile-menu-header">
+          <a href="/" class="header-logo">
+            <div class="header-logo__img">
+              <img src="assets/img/logo-img.png" alt="">
+            </div>
+            <div class="header-logo__text">
+              <svg class="header-logo__title color-text" width="225" height="50">
+                <use xlink:href="assets/img/logo-title.svg#index" />
+              </svg>
+
+              <svg class="header-logo__subtitle" width="122" height="18">
+                <use xlink:href="assets/img/logo-subtitle.svg#index" />
+              </svg>
+
+
+            </div>
+          </a>
+
+          <button class="btn btn--primary btn-icon ml-auto" data-toggle-link="header-nav">
+            <svg class="icon">
+              <use xlink:href="assets/img/icons.svg#cross" />
+            </svg>
+          </button>
+        </div>
+        <div class="header-nav__inner">
+
+          <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0"
+            data-toggle-link="nav-popup-1">
+            Музей
+            <svg class="icon fade-60 ml-2 text-small">
+              <use xlink:href="assets/img/icons.svg#triangle-right" />
+            </svg>
+          </button>
+          <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8"
+            data-toggle-link="nav-popup-2">
+            Что посмотреть
+            <svg class="icon fade-60 ml-2 text-small">
+              <use xlink:href="assets/img/icons.svg#triangle-right" />
+            </svg>
+          </button>
+          <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Новости</button>
+          <button
+            class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Посетителям</button>
+          <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 mb-lg-0 ml-lg-8">Медиа</button>
+
+          <div class="header-nav__popup">
+            <div class="header-nav__popup-inner" id="nav-popup-1">
+              <div class="header-nav__popup-list">
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+                  data-toggle-link="nav-popup-1">
+                  <svg class="icon fade-60 mr-2 text-small">
+                    <use xlink:href="assets/img/icons.svg#to-left" />
+                  </svg>
+                  Музей
+
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4"
+                  data-toggle-link="nav-popup-1-1">
+                  Музей для
+                  <svg class="icon fade-60 ml-2 text-small">
+                    <use xlink:href="assets/img/icons.svg#triangle-right" />
+                  </svg>
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">История</button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Руководство</button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Контакты</button>
+              </div>
+
+              <div class="header-nav__popup-sub " id="nav-popup-1-1">
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+                  data-toggle-link="nav-popup-1-1">
+                  <svg class="icon fade-60 mr-2 text-small">
+                    <use xlink:href="assets/img/icons.svg#to-left" />
+                  </svg>
+                  Музей для
+
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+                  <img src="assets/img/museum-for-1.png" alt="" class="icon text-body-0 mr-2">
+                  Школьников
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+                  <img src="assets/img/museum-for-2.png" alt="" class="icon text-body-0 mr-2">
+                  Дошкольников
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+                  <img src="assets/img/museum-for-3.png" alt="" class="icon text-body-0 mr-2">
+                  Семейной аудитории
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">
+                  <img src="assets/img/museum-for-4.png" alt="" class="icon text-body-0 mr-2">
+                  Волонтеров
+                </button>
+
+              </div>
+
+
+            </div>
+            <div class="header-nav__popup-inner" id="nav-popup-2">
+              <div class="header-nav__popup-list">
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4 d-lg-none"
+                  data-toggle-link="nav-popup-2">
+                  <svg class="icon fade-60 mr-2 text-small">
+                    <use xlink:href="assets/img/icons.svg#to-left" />
+                  </svg>
+                  Что посмотреть
+
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Постоянная экспозиция
+                </button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Выставка</button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Экскурсия</button>
+                <button class="header-nav__item link-hover btn btn--primary btn--link mb-4">Другие события
+                  (мероприятия)</button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="header-nav__shadow" data-toggle-link="header-nav"></div>
+      </div>
+
+
+      <button class="header__burger btn btn--white btn-icon  d-lg-none ml-auto" data-toggle-link="header-nav">
+        <svg class="icon">
+          <use xlink:href="assets/img/icons.svg#menu" />
+        </svg>
+      </button>
+    </header>
+
+    <section class="page-header">
+      <div class="page-header__inner">
+        <div class="page-header__breadcrumps text-small fade-60">
+          <a href="javascript:;" class="link-hover">Главная</a> >
+          <a href="javascript:;" class="link-hover">Выставки</a> >
+          Мой адрес -Советский Союз
+        </div>
+        <div class="page-header__title text-h4 text-md-h1 text-lg-h0 font-alt">Мой адрес -Советский Союз</div>
+      </div>
+    </section>
+
+  </div>
+
+  <section class="exposition-detail">
+    <div class="exposition-detail-info mb-lg-10 mb-5">
+      <div class="grid">
+        <div class="grid-col-md-6 grid-col-lg-4">
+          <div class="py-6 pl-md-6">
+
+            <div class="text-body-0 text--demibold font-alt mb-5">Дата проведения</div>
+            <div class="flex flex-align-center mb-5">
+              <svg class="icon mr-2">
+                <use xlink:href="assets/img/icons.svg#calendar" />
+              </svg>
+              <div class="text-body-1">18 апреля-31 декабря</div>
+            </div>
+            <div class="text-body-1">
+              ежедневно с 09:00 до 17:00 <br>
+              понедельник – выходной день
+            </div>
+          </div>
+        </div>
+        <div class="grid-col-md-6 grid-col-lg-4">
+          <div class="py-6">
+            <div class="text-body-0 text--demibold font-alt mb-5">Стоимость посещения</div>
+            <div class="text-body-1 lh-1-5">
+              Взрослые - <span class="text--bold">100 Р</span> <br>
+              Дети 7 -16 лет - <span class="text--bold">50 Р</span> <br>
+              Льготная категория - <span class="text--bold">Бесплатно</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-col-md-12 grid-col-lg-4">
+          <a class="exposition-detail-info__link waved" href="javascript:;">
+            <svg class="icon">
+              <use xlink:href="assets/img/icons.svg#doc" />
+            </svg>
+            <div class="text-body-0 text--demibold font-alt ml-3">Правила посещения</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-body-1 mb-10">
+      Отрадненский историко - археологический музей приглашает посетить с 18 апреля по 31 декабря 2022 года стационарную
+      выставку «Мой адрес -Советский Союз», посвященную 100-летию образования СССР. Гостям музея предоставляется
+      уникальная возможность: молодым -прикоснуться к истории своей страны, а старшему поколению ненадолго вернуться
+      назад в прошлое и оказаться в окружении знакомых с детства вещей. На выставке можно увидеть плакаты и фотографии,
+      значки и денежные знаки советской эпохи, школьную форму и символику октябрят, пионеров и комсомола, ордена и
+      медали героев войны и труда и коллекцию предметов советского быта, а также познакомиться с достижениями
+      предприятий и колхозов Отрадненского района. Внимание посетителей несомненно привлечет возможность увидеть и
+      услышать как звучит грампластинка, бобинный магнитофон, работает диапроектор и многое другое. На базе выставки для
+      разных возрастных категорий посетителей проводятся экскурсии и интерактивные музейные мероприятия с применением
+      видео-презентаций, викт
+    </div>
+
+
+    <div class="grid grid-spacing-lg-9">
+      <div class="grid-col-6 grid-col-lg-4">
+        <a href="https://www.youtube.com/watch?v=REg6q5ObbUs" data-fancybox="galleryId" class="image image--rect progress-container bg-l1 brs-1 waved">
+          <div class="progress progress-circle"></div>
+          <img src="https://picsum.photos/600/400?random=11" alt="">
+          <div class="card-center-control">
+            <button class="btn btn-large btn-fab btn--primary btn--white-bg">
+              <svg class="icon"><use xlink:href="assets/img/icons.svg#play" /></svg>
+            </button>
+          </div>
+        </a>
+      </div>
+      <div class="grid-col-6 grid-col-lg-4">
+        <a href="https://picsum.photos/1920/1080?random=12" data-fancybox="galleryId" class="image image--rect progress-container bg-l1 brs-1 waved">
+          <div class="progress progress-circle"></div>
+          <img src="https://picsum.photos/600/400?random=12" alt="">
+        </a>
+      </div>
+      <div class="grid-col-6 grid-col-lg-4">
+        <a href="https://picsum.photos/1920/1080?random=13" data-fancybox="galleryId" class="image image--rect progress-container bg-l1 brs-1 waved">
+          <div class="progress progress-circle"></div>
+          <img src="https://picsum.photos/600/400?random=13" alt="">
+        </a>
+      </div>
+      <div class="grid-col-6 grid-col-lg-4">
+        <a href="https://picsum.photos/1920/1080?random=14" data-fancybox="galleryId" class="image image--rect progress-container bg-l1 brs-1 waved">
+          <div class="progress progress-circle"></div>
+          <img src="https://picsum.photos/600/400?random=14" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
