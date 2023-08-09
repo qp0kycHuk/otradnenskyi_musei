@@ -192,15 +192,33 @@
 					Одно из лучших муниципальных учреждений культуры Кубани,
 				</div>
 				<div class="mt-10 gsap" data-animation="fadeInUp" data-delay="0.500">
-					<button class="started__btn btn btn--white-bg ">Больше о музее</button>
+					<div class="started__btns flex flex-wrap flex-align-center">
+						<button class="started__btn btn btn--white-bg ">Больше о музее</button>
+						<button class="started__btn btn btn--white-bg ">
+							<img class="icon text-h1 mr-2" src="assets/img/card.svg" alt="">
+							Пушкинская карта
+						</button>
+					</div>
 
 				</div>
 			</section>
-
-
-
-
 		</div>
+
+
+		<section class="pushkin-card">
+			<div class="pushkin-card__content">
+				<img class="pushkin-card__main" src="assets/img/pushkin-card.png" alt="">
+				<div class="pushkin-card__banner flex flex-align-center">
+					<div class="pushkin-card__block color-white ml-auto mr-md-10">
+						<div class="pushkin-card__title text-h4 text--uppercase mb-6 font-alt gsap-scroll" data-animation="fadeInUp">Заведи <br class="d-md-none"> “Пушкинскую карту”</div>
+						<div class="flex">
+							<a class="btn btn--white-bg px-10" href="">Перейти</a>
+						</div>
+					</div>
+					<img class="pushkin-card__men w-auto" src="assets/img/pushkin.png" alt="">
+				</div>
+			</div>
+		</section>
 
 
 		<!-- Что посмотреть -->
@@ -598,15 +616,36 @@
 		<section class="soc">
 			<div class="soc__title text-h6 text-md-h4 font-alt">Наши социальные сети</div>
 			<div class="soc__list">
-				<button class="soc__item btn btn--yellow btn-icon">
-					<img src="assets/img/soc-ok.svg" alt="" class="icon text-h2">
-				</button>
-				<button class="soc__item btn btn--red btn-icon">
-					<img src="assets/img/soc-yt.svg" alt="" class="icon text-h2">
-				</button>
-				<button class="soc__item btn btn--blue btn-icon">
-					<img src="assets/img/soc-vk.svg" alt="" class="icon text-h2">
-				</button>
+				<a class="soc__link" href="https://ok.ru/group/53644018778254" target="_blank">
+					<button class="soc__item btn btn--yellow btn-icon">
+						<img src="assets/img/soc-ok.svg" alt="" class="icon text-h2">
+					</button>
+					<span class="soc__text">Группа в ОК</span>
+				</a>
+				<a class="soc__link" href="https://ok.ru/profile/576284274574" target="_blank">
+					<button class="soc__item btn btn--yellow btn-icon">
+						<img src="assets/img/soc-ok.svg" alt="" class="icon text-h2">
+					</button>
+					<span class="soc__text">Профиль в ОК</span>
+				</a>
+				<a class="soc__link" href="https://vk.com/id656276758" target="_blank">
+					<button class="soc__item btn btn--red btn-icon">
+						<img src="assets/img/soc-yt.svg" alt="" class="icon text-h2">
+					</button>
+					<span class="soc__text">Youtube</span>
+				</a>
+				<a class="soc__link" href="https://www.youtube.com/channel/UCPuxh0YEsh72uLLN59C0uBw" target="_blank">
+					<button class="soc__item btn btn--blue btn-icon">
+						<img src="assets/img/soc-vk.svg" alt="" class="icon text-h2">
+					</button>
+					<span class="soc__text">ВК</span>
+				</a>
+				<a class="soc__link" href="https://rutube.ru/channel/28968117/" target="_blank">
+					<button class="soc__item btn btn--blue btn-icon">
+						<img src="assets/img/soc-ru.svg" alt="" class="icon text-h2">
+					</button>
+					<span class="soc__text">Rutube</span>
+				</a>
 			</div>
 		</section>
 
