@@ -106,7 +106,7 @@ function setToggle(toggleLink, toggleId, toggleCover) {
 
 
 	if (!isActive()) {
-		const links = document.querySelectorAll('[' + attr.link + '=' + toggleId + '].' + activeClass);
+		const links = document.querySelectorAll('[' + attr.link + '="' + toggleId + '"].' + activeClass);
 		for (const i in links) {
 			if (!links.hasOwnProperty(i)) continue;
 			links[i].classList.remove(activeClass);
