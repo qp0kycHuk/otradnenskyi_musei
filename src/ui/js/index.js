@@ -4,7 +4,7 @@ import fancybox from "./fancybox";
 import Swiper, { Navigation, Pagination, Scrollbar, Autoplay, Grid, Thumbs, EffectFade, Lazy } from 'swiper';
 import tab from './ui--tab';
 import rangeSlider from './range-slider';
-import toggle from './ui--toggle';
+import toggle from 'npm-kit-toggle'
 import parallax from './ui--parallax';
 import ripple from './ripple';
 import theme from './theme';
