@@ -1,5 +1,5 @@
 import UI from './ui/js/index'
-import Inputmask from "inputmask";
+import phonemask from './phonemask';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 // import LocomotiveScroll from 'locomotive-scroll';
@@ -40,10 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.body.style.setProperty('--scrollbar-width', scrollWidth + 'px')
 
   // mask
-  const inputs = document.querySelectorAll('input[type="tel"]');
-  const im = new Inputmask("+7 (999) - 999 - 99 - 99");
-  im.mask(inputs);
-
+  phonemask.init('[type="tel"]');
 
   // init gsap animation
   gsap.registerPlugin(ScrollTrigger);
