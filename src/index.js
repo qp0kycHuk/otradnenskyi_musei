@@ -101,6 +101,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+
+  const snowflakes = document.querySelectorAll('.snowflakes')
+
+  console.log(snowflakes);
+
+  snowflakes.forEach((wrapper) => {
+    const items = wrapper.querySelectorAll('.snowflake')
+    gsap.to(items, {
+      yPercent: 50,
+      rotate: 'random(-30, 30)',
+      scrollTrigger: {
+        scrub: 2,
+        trigger: wrapper,
+        start: 'top top',
+        end: 'bottom top',
+      },
+    })
+  })
 })
 
 
